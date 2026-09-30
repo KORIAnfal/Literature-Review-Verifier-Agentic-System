@@ -4,3 +4,4 @@ db/
 cache/
 __pycache__/
 checkpoints.db
+plan.txt
