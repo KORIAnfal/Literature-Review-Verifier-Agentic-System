@@ -1,2 +1,7 @@
-model: "google_genai:gemini-2.5-flash"
-judge_model: "google_genai:gemini-2.5-flash-lite"
+model: "google_genai:gemini-3.8-flash"
+judge_model: "google_genai:gemini-3.5-flash-lite"
+chunk_size: 2000
+chunk_overlap: 200
+papers_per_query: 3
+top_k: 12
+max_revisions: 3
